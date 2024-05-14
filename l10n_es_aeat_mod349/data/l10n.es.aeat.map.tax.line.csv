@@ -1,0 +1,6 @@
+id,map_parent_id:id,field_number,name,to_regularize,move_type,field_type,sum_type,inverse,account_xmlid_ids/id,tax_xmlid_ids/id,physical_product
+aeat_349_map_line_E,aeat_mod349_map,E,name-A,0,regular,base,both,0,,"s_iva0_ic",True
+aeat_349_map_line_A,aeat_mod349_map,A,name-A,0,regular,base,both,0,,"p_iva0_ic_bc,p_iva4_ic_bc,p_iva4_ic_bi,p_iva5_ic_bc,p_iva10_ic_bc,p_iva10_ic_bi,p_iva21_ic_bc,p_iva21_ic_bi",True
+aeat_349_map_line_T,aeat_mod349_map,T,name-A,0,regular,base,both,0,,,True
+aeat_349_map_line_S,aeat_mod349_map,S,name-A,0,regular,base,both,0,,"s_iva0_sp_i",
+aeat_349_map_line_I,aeat_mod349_map,I,name-A,0,regular,base,both,0,,"p_iva0_ic_sc,p_iva4_sp_in,p_iva5_ic_sc,p_iva10_sp_in,p_iva21_sp_in",
