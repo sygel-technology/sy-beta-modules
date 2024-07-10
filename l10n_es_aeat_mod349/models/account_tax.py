@@ -21,9 +21,15 @@ class AccountTax(models.Model):
 
     def _compute_l10n_es_aeat_349_operation_key(self):
         # TODO: Improve performance
-        map_349 = self.env["l10n.es.aeat.map.tax.line"].search([
-            ("map_parent_id", "=", self.env.ref("l10n_es_aeat_mod349.aeat_mod349_map").id)
-        ])
+        map_349 = self.env["l10n.es.aeat.map.tax.line"].search(
+            [
+                (
+                    "map_parent_id",
+                    "=",
+                    self.env.ref("l10n_es_aeat_mod349.aeat_mod349_map").id,
+                )
+            ]
+        )
         for tax in self:
             tax.l10n_es_aeat_349_operation_key = False
             for line in map_349:

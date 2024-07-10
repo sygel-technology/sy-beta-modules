@@ -6,7 +6,7 @@
         <field name="inherit_id" ref="l10n_es_aeat.l10n_es_aeat_map_tax_line_tree" />
         <field name="arch" type="xml">
             <field name="inverse" position="after">
-                <field name="physical_product" column_invisible="parent.model != 349"/>
+                <field name="physical_product" column_invisible="parent.model != 349" />
             </field>
         </field>
     </record>
