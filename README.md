@@ -1,8 +1,8 @@
 
 <!-- /!\ Non OCA Context : Set here the badge of your runbot / runboat instance. -->
-[![Pre-commit Status](https://github.com/sygel-technology/sy-beta-modules/actions/workflows/pre-commit.yml/badge.svg?branch=17.0)](https://github.com/sygel-technology/sy-beta-modules/actions/workflows/pre-commit.yml?query=branch%3A17.0)
-[![Build Status](https://github.com/sygel-technology/sy-beta-modules/actions/workflows/test.yml/badge.svg?branch=17.0)](https://github.com/sygel-technology/sy-beta-modules/actions/workflows/test.yml?query=branch%3A17.0)
-[![codecov](https://codecov.io/gh/sygel-technology/sy-beta-modules/branch/17.0/graph/badge.svg)](https://codecov.io/gh/sygel-technology/sy-beta-modules)
+[![Pre-commit Status](https://github.com/sygel-technology/sy-beta-modules/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/sygel-technology/sy-beta-modules/actions/workflows/pre-commit.yml?query=branch%3A16.0)
+[![Build Status](https://github.com/sygel-technology/sy-beta-modules/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/sygel-technology/sy-beta-modules/actions/workflows/test.yml?query=branch%3A16.0)
+[![codecov](https://codecov.io/gh/sygel-technology/sy-beta-modules/branch/16.0/graph/badge.svg)](https://codecov.io/gh/sygel-technology/sy-beta-modules)
 <!-- /!\ Non OCA Context : Set here the badge of your translation instance. -->
 
 <!-- /!\ do not modify above this line -->
@@ -17,11 +17,7 @@ Modulos Beta, for continue later
 
 [//]: # (addons)
 
-Available addons
-----------------
-addon | version | maintainers | summary
---- | --- | --- | ---
-[l10n_es_aeat_mod349](l10n_es_aeat_mod349/) | 17.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | AEAT modelo 349
+This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
 
 [//]: # (end addons)
 
