@@ -13,7 +13,7 @@
     "author": "Tecnativa, ForgeFlow, Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "category": "Localisation/Accounting",
-    "website": "https://github.com/OCA/l10n-spain",
+    "website": "https://github.com/sygel-technology/sy-beta-modules",
     "depends": ["l10n_es_aeat", "l10n_es"],
     "data": [
         "data/l10n.es.aeat.map.tax.csv",

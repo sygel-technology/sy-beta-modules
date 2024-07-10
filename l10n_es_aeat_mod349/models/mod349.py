@@ -328,9 +328,15 @@ class L10nEsAeatMod349Report(models.Model):
     @api.model
     def _get_taxes(self):
         """Obtain all the taxes to be considered for 349."""
-        map_lines = self.env["l10n.es.aeat.map.tax.line"].search([
-            ("map_parent_id", "=", self.env.ref("l10n_es_aeat_mod349.aeat_mod349_map").id)
-        ])
+        map_lines = self.env["l10n.es.aeat.map.tax.line"].search(
+            [
+                (
+                    "map_parent_id",
+                    "=",
+                    self.env.ref("l10n_es_aeat_mod349.aeat_mod349_map").id,
+                )
+            ]
+        )
         tax_templates = map_lines.mapped("tax_xmlid_ids")
         if not tax_templates:
             raise exceptions.UserError(_("No Tax Mapping was found"))
@@ -339,7 +345,7 @@ class L10nEsAeatMod349Report(models.Model):
             tax_id = self.company_id._get_tax_id_from_xmlid(tax_template.name)
             if tax_id:
                 taxes_ids.append(tax_id)
-        return self.env["account.tax"].search([('id', 'in', taxes_ids)])
+        return self.env["account.tax"].search([("id", "in", taxes_ids)])
 
     def _cleanup_report(self):
         """Remove previous partner records and partner refunds in report."""
