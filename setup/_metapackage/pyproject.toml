@@ -1,0 +1,11 @@
+[project]
+name = "odoo-addons-sygel-technology-sy-beta-modules"
+version = "17.0.20241105.0"
+dependencies = [
+    "odoo-addon-l10n_es_aeat_mod349>=17.0dev,<17.1dev",
+]
+classifiers=[
+    "Programming Language :: Python",
+    "Framework :: Odoo",
+    "Framework :: Odoo :: 17.0",
+]
