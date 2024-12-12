@@ -9,7 +9,7 @@
 
 # sy-beta-modules
 
-Modulos Beta, for continue later
+Beta Modules, test and development
 
 <!-- /!\ do not modify below this line -->
 
